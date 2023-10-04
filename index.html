@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Quiz</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/CSS/styleIndex.css">
 </head>
-
 <body>
+    <div id="timer">Time: 60 seconds</div>
+    <section id="pre-game" class="is-active">
+        <button id="start">Start Quiz</button>
+        <button id="hs-button">View High Scores</button>
+    </section>
+    <section id="game" class="is-inactive">
+    </section>
+    <section id="game-end" class="is-inactive">
+        <p>Quiz completed!</p>
+        <input type="text" id="initials" placeholder="Enter initials">
+        <button id="submit">Submit</button> <!-- Added the Submit button here -->
+    </section>
 
-
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/JS/styleIndex.js"></script>
 </body>
 </html>

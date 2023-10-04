@@ -1,0 +1,57 @@
+/* Reset default margin and padding for the entire page */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0; /* Adjust the color as needed */
+    font-family: Arial, sans-serif; /* Use a preferred font */
+}
+
+/* Style for answer choices (optional) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.is-active {
+    display: flex;
+}
+
+.is-inactive {
+    display: none;
+}
+
+/* Center the content in the game and game-end sections */
+#game,
+#game-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically within the viewport */
+    text-align: center;
+    position: relative; /* Added position relative for timer placement */
+}
+
+
+
+
+/* Style for the timer display */
+#timer {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 10px; /* Adjust the top position to move the timer to the top right corner */
+    right: 10px; /* Adjust the right position to move the timer to the top right corner */
+}
