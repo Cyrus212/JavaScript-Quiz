@@ -1,0 +1,51 @@
+/* Reset default margin and padding for the entire page */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0; /* Adjust the color as needed */
+    font-family: Arial, sans-serif; /* Use a preferred font */
+}
+
+/* Center the content in the highscores section */
+#hs-scores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically within the viewport */
+    text-align: center;
+}
+
+/* Style for the high scores display (optional) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Style for the "Go Back" link (optional) */
+a {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #007bff; /* Button color, adjust as needed */
+    color: #fff; /* Text color, adjust as needed */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3; /* Hover color, adjust as needed */
+}
